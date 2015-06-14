@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         
         buttonBeep = self.setupAudioPlayerWithFile("ButtonTap", type: "wav")
         secondBeep = self.setupAudioPlayerWithFile("SecondBeep", type: "wav")
-        backgroundMusic = self.setupAudioPlayerWithFile("HallOfTheMountainKing", type: "mps")
+        backgroundMusic = self.setupAudioPlayerWithFile("HallOfTheMountainKing", type: "mp3")
         
         setupGame()
         
